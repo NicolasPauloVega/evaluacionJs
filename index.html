@@ -3,28 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evaluacion</title>
+    <script src="./js/seguros.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Evaluacion js</title>
 </head>
 <body>
-    <h1>Seguros</h1>
-
-    <label for="seguro">Seleciona el seguro que quieras comprar: </label>
-    <select name="seguros" id="seguro">
-        <option value="0">Ninguna</option>
-        <option value="1">Seguro de vida</option>
-        <option value="2">Seguro de moto</option>
-        <option value="3">Seguro de accidentes</option>
-        <option value="4">Seguro de salud</option>
-    </select>
-    <br>
-
-    <label for="cant-seguro">¿Cuantos deseas comprar?</label>
-    <input type="number" min="0" id="cantidad">
-    <br>
-
-    <button onclick="mostrar()" id="btn-1">total</button>
-    <strong id="total"></strong>
-
-    <script src="./js/seguros.js"></script>
+    <div>
+        <h1>Seguros</h1>
+        <br>
+        <button onclick="mostrar()">Comprar seguro</button>
+        <br>
+        <strong id="total"></strong>
+        </div>
+    
 </body>
 </html>
