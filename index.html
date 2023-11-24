@@ -7,24 +7,23 @@
 </head>
 <body>
     <h1>Seguros</h1>
-    
-    <label for="Seguro-seleccion">Selecciona el Seguro que deseas:</label>
-    <br>
-    <select id="Seguros">
-        <option value="0">Ninguno</option>
-        <option value="1">Seguros de vida</option>
-        <option value="2">Seguros automovilisticos</option>
-        <option value="3">Seguros de accidentes personales</option>
-        <option value="4">Seguro de cesantía</option>
+
+    <label for="seguro">Seleciona el seguro que quieras comprar: </label>
+    <select name="seguros" id="">
+        <option value="0">Ninguna</option>
+        <option value="1">Seguro de vida</option>
+        <option value="2">Seguro de moto</option>
+        <option value="3">Seguro de accidentes</option>
+        <option value="4">Seguro de salud</option>
     </select>
     <br>
-    <label for="cantidad-seguros">Ingresa la cantidad de seguros que deseas comprar:</label>
+
+    <label for="cant-seguro">¿Cuantos deseas comprar?</label>
+    <input type="number" min="0">
     <br>
-    <input type="number" id="cantidad" min="0">
-    <br>
-    <button>Total</button>
-    <br>
-    <span id="total">0</span>
+
+    <button onclick="mostrar()">total</button>
+    <strong id="total"></strong>
 
     <script src="./js/seguros.js"></script>
 </body>
