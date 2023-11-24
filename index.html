@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluacion</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Seguros</h1>
+    
+    <label for="Seguro-seleccion">Selecciona el Seguro que deseas:</label>
+    <br>
+    <select id="Seguros">
+        <option value="0">Ninguno</option>
+        <option value="1">Seguros de vida</option>
+        <option value="2">Seguros automovilisticos</option>
+        <option value="3">Seguros de accidentes personales</option>
+        <option value="4">Seguro de cesantía</option>
+    </select>
+    <br>
+    <label for="cantidad-seguros">Ingresa la cantidad de seguros que deseas comprar:</label>
+    <br>
+    <input type="number" id="cantidad" min="0">
+    <br>
+    <button onclick="mostra()">Total</button>
+    <br>
+    <span id="total">0</span>
+
+    <script src="../visual/js/seguros.js"></script>
+</body>
+</html>
