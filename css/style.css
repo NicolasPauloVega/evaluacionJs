@@ -86,3 +86,8 @@ body:before{
 .btn:hover::before{
     transform: translate(12px, 12px,);
 }
+
+.icons i{
+    font-size: 100px;
+    margin-right: 50px;
+}
