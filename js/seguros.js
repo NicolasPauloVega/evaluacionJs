@@ -4,7 +4,7 @@
 function mostrar(){
 
     //Se crea una variable que permita identificar el numero del servicio que desea comprar el usuario.
-    opc = parseInt(prompt("Ingresa el numero perteneciente al seguro:\n1.Seguro de vida.\n2.Seguro de salud.\n3.Seguro de motocicleta.\n4.Seguro contra accidentes.\n5.Ninguna de los anteriores seguros."))
+    opc = parseInt(prompt("Ingresa el numero perteneciente al seguro:\n1.Seguro de vida ($100.00).\n2.Seguro de salud ($150.00).\n3.Seguro de motocicleta ($200.00).\n4.Seguro contra accidentes ($180.00).\n5.Ninguna de los anteriores seguros."))
 
     //Se crea un menu con la sentencia switch con un parametro de acuerdo al numero seleccionado por el usuario.
     switch(opc){
